@@ -35,7 +35,7 @@ def video_upload():
     print (r.text)
 
 # Define the duration (in seconds) of the video capture here
-capture_duration = 10
+capture_duration = 60
 
 cap = cv2.VideoCapture(0)
 
